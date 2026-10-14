@@ -10,6 +10,6 @@
 
 GitHub pozwala przesłać przez przeglądarkę do 100 plików naraz, każdy do 25 MiB. Ten folder został sprawdzony pod kątem tych limitów. Nie trzeba przesyłać oddzielnie archiwum ZIP ani stosować Git LFS. Przeglądarkowy upload nie jest mechanizmem filtrowania całej kopii roboczej: przesyłaj tylko przygotowany folder, nie `D:\olmocr_vlm`.
 
-Zawartość jest gotowa technicznie do uploadu. Licencja ponownego wykorzystania pozostaje do wyboru przez autora. Skany, transkrypcje i adaptery są poza tym folderem. Dodanie ich później wymaga zaktualizowania zakresu i praw do danych.
+Zawartość jest gotowa technicznie do uploadu. Kod i konfiguracje są na MIT, a dane i dokumentacja na CC BY 4.0; zakres opisano w RIGHTS.md. Skany, transkrypcje i adaptery są poza tym folderem. Dodanie ich później wymaga zaktualizowania zakresu i praw do danych.
 
 Źródło limitów i procedury: https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository

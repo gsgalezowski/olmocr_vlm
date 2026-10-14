@@ -20,7 +20,7 @@
 - DOI: uzupełnić dopiero rzeczywistym DOI opublikowanego rekordu.
 - URL: podać stronę tego rekordu; adres GitHuba sam w sobie nie jest DOI.
 
-Publiczny GitHub nie nadaje automatycznie DOI. W Zenodo można opublikować osobny rekord danych; przy publikacji rejestrowany jest DOI. Najpierw należy ustalić licencję. Nie należy wpisywać DOI artykułu lub modelu bazowego jako DOI tego zestawu.
+Publiczny GitHub nie nadaje automatycznie DOI. W Zenodo można opublikować osobny rekord danych; przy publikacji rejestrowany jest DOI. Dane i dokumentacja w tym pakiecie są udostępniane na CC BY 4.0, kod i konfiguracje na MIT. W opisie rekordu należy zachować ten podział. Nie należy wpisywać DOI artykułu lub modelu bazowego jako DOI tego zestawu.
 
 ## Faktyczny opis prac do wykorzystania przy raporcie
 

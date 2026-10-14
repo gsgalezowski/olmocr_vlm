@@ -69,4 +69,4 @@ See [acknowledgements](ACKNOWLEDGEMENTS.md) for identifiers and official guidanc
 
 ## Publication status and reuse
 
-This is a repository prepared for deposit, not evidence that a DOI or a peer-reviewed publication exists. A DOI must be added only after the corresponding repository record is published. No open redistribution license has yet been selected for this package; see [RIGHTS.md](RIGHTS.md). The repository does not replace the grant report or establish its acceptance by PLGrid.
+This is a repository prepared for deposit, not evidence that a DOI or a peer-reviewed publication exists. A DOI must be added only after the corresponding repository record is published. Code and training configurations use [MIT](LICENSE); evaluation data and research documentation use [CC BY 4.0](LICENSE-DATA.md). See [RIGHTS.md](RIGHTS.md) for the file-level scope. The repository does not replace the grant report or establish its acceptance by PLGrid.

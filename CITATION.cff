@@ -14,3 +14,10 @@ keywords:
   - LUMI
   - LoRA
   - historical documents
+
+repository-code: "https://github.com/gsgalezowski/olmocr_vlm"
+url: "https://github.com/gsgalezowski/olmocr_vlm"
+# Distinct file scopes are defined in RIGHTS.md; these are not alternatives for every file.
+license:
+  - MIT
+  - CC-BY-4.0

@@ -43,4 +43,4 @@ Technical inspection of pilot outputs, evaluation-method review and reporting th
 
 ## Access and license
 
-No DOI exists at preparation time. No open license has been selected. See RIGHTS.md and docs/DATA_AVAILABILITY.md. Metadata for a future deposit must describe this numerical evaluation dataset, not claim distribution of the 98-page corpus.
+No DOI exists at preparation time. Evaluation data and research documentation are licensed under CC BY 4.0; code and training configurations are licensed under MIT. See RIGHTS.md and docs/DATA_AVAILABILITY.md. Metadata for a future deposit must describe this numerical evaluation dataset, not claim distribution of the 98-page corpus.

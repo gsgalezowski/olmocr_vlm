@@ -41,8 +41,8 @@
   },
   {
     "path": "CITATION.cff",
-    "bytes": 673,
-    "sha256": "b3a328f38808cab343c3772b67b7d96791ee052dde3b8ae978f7bdb4dc069d5b"
+    "bytes": 916,
+    "sha256": "589332bac24cbb78eb0c472542ad39c45f80f37511d68d221826409c16be0c7b"
   },
   {
     "path": "configs/olmocr_lora_quick12.yaml",
@@ -56,8 +56,8 @@
   },
   {
     "path": "DATASET_CARD.md",
-    "bytes": 3162,
-    "sha256": "bc65e86dcd4bb173baa499dffc43c8af6ccb67898f581689af5044afbcb0febc"
+    "bytes": 3257,
+    "sha256": "3057cba7880efa6087d9d8105fb563e603b24f91bd9872aae1a68e40c4434758"
   },
   {
     "path": "docs/DATA_AVAILABILITY.md",
@@ -66,8 +66,8 @@
   },
   {
     "path": "docs/GITHUB_UPLOAD_PL.md",
-    "bytes": 1507,
-    "sha256": "b977f348107ff2258207f9f61d70d56bf4ef81ea52b7de86c2b195debeaf3d01"
+    "bytes": 1535,
+    "sha256": "0e5769cee817c818e675f29d0261fb7398d565ab8edd0cf727c92698db72d4d5"
   },
   {
     "path": "docs/LIMITATIONS.md",
@@ -76,8 +76,8 @@
   },
   {
     "path": "docs/PLGRID_REPORTING.md",
-    "bytes": 3144,
-    "sha256": "d58ade8cb14dfe58572a787534ed27f6defe6f327d1925f0b8d2c2f54e6dca22"
+    "bytes": 3250,
+    "sha256": "f305a1c88d8d35dfd881916ebc492b7b8b2c5c48d039d71e145485f63b443047"
   },
   {
     "path": "docs/REPRODUCIBILITY.md",
@@ -93,6 +93,16 @@
     "path": "INSTRUKCJA_TRENINGU_OLMOCR_LUMI.md",
     "bytes": 10163,
     "sha256": "1099f1d89bbfcd1ec0a801b7137e74ea86c1d3c10012588d5cc65c944588206e"
+  },
+  {
+    "path": "LICENSE",
+    "bytes": 1078,
+    "sha256": "dd9d7a1143311c8c3530de1013ca2b0a54c54764fc8681ac04c0f9e463b2ac07"
+  },
+  {
+    "path": "LICENSE-DATA.md",
+    "bytes": 1468,
+    "sha256": "e0ce230e8dfd524e1a9f24c5a268fd5d5ae71083d2bf7cecc10f5440de6c4060"
   },
   {
     "path": "OCENA_WYBORU_MODELU_TRENINGOWEGO.md",
@@ -126,8 +136,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 4918,
-    "sha256": "ad01cc5f7b0d8b3dc3a10476710f25583094988ca975318851bbda9a3a5512bd"
+    "bytes": 5002,
+    "sha256": "8b1f38288193b65a5b01da124c60cf48800fd8e56fbe40cf7206446a538f8b77"
   },
   {
     "path": "results/base_quick12_heldout_evaluation/metrics_per_page.csv",
@@ -176,8 +186,8 @@
   },
   {
     "path": "RIGHTS.md",
-    "bytes": 982,
-    "sha256": "693b1a544bbd5c411b2d7e4ea6afa20066d2f1424171543774ecf83f92d6e0ea"
+    "bytes": 1483,
+    "sha256": "abf5b8ad7c6521b65c1bd4e64986442bb0d2ba5d073bda95c96ab6414cb2b303"
   },
   {
     "path": "scripts/01_gpu_framework_preflight.sbatch",

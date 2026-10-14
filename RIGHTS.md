@@ -1,9 +1,17 @@
-# Rights and reuse status
+# Licensing and reuse
 
-No open-source or open-data license has been selected by the author for this prepared package. This file is a status statement, not a license grant. Public visibility alone must not be described as granting an unrestricted reuse license.
+Copyright (c) 2026 Grzegorz Gałęzowski, for original contributions to which the author holds rights.
 
-Input scans, reference transcriptions, generated page texts and model/adapter binaries have not been included in the upload folder. Their public redistribution was not confirmed during preparation. The original local archive is preserved separately.
+This repository uses different licenses for distinct categories of files. This is not a choice of either license for every file.
 
-Referenced models and third-party dependencies retain their own terms. This repository does not relicense them. Before a public data deposit, the author should select appropriate terms for the original code and evaluation data, and confirm provenance/permissions for any additional materials to be added.
+| Category | Scope | License |
+|---|---|---|
+| Code and executable configurations | Python files in `scripts/` and `tools/`, all `*.sbatch`, training YAML files in `configs/` | MIT; see [LICENSE](LICENSE) |
+| Evaluation data and research documentation | `results/` CSV/JSON, `provenance/` metadata, inventories and documentation, root and `docs/` research Markdown, `CITATION.cff`, `FILE_MANIFEST.json`, tabular page manifests | CC BY 4.0; see [LICENSE-DATA.md](LICENSE-DATA.md) |
 
-No ORCID, DOI, repository URL, publication date or license identifier has been invented. Add confirmed identifiers to CITATION.cff after publication.
+Both licenses permit commercial use, subject to their respective conditions. MIT requires preservation of the copyright and permission notices. CC BY 4.0 requires appropriate attribution, license identification and indication of modifications where applicable.
+
+The scopes above apply to the author's rights only. External models, libraries, third-party excerpts and license texts retain their own terms. No redistribution rights are granted for scans, manual transcriptions, generated page texts or binary model/adapter artifacts retained outside this repository.
+
+Repository: https://github.com/gsgalezowski/olmocr_vlm
+No DOI or ORCID has been invented. Update citation identifiers after a corresponding record is published.
