@@ -1,0 +1,10 @@
+{
+  "pages": 6,
+  "cer_median": 0.890775,
+  "wer_median": 1.072424,
+  "cer_pooled": 1.698142,
+  "wer_pooled": 1.716266,
+  "length_ratio_median": 1.222472,
+  "total_reference_characters": 14858,
+  "total_prediction_characters": 29462
+}

@@ -1,0 +1,1100 @@
+[
+  {
+    "path": ".gitignore",
+    "bytes": 100,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "16_lora_smoke.sbatch",
+    "bytes": 916,
+    "included": true,
+    "reason": "Included (see source_files.json for transformations)"
+  },
+  {
+    "path": "17_qwen_download.sbatch",
+    "bytes": 810,
+    "included": true,
+    "reason": "Included (see source_files.json for transformations)"
+  },
+  {
+    "path": "18_qwen_batch6.sbatch",
+    "bytes": 960,
+    "included": true,
+    "reason": "Included (see source_files.json for transformations)"
+  },
+  {
+    "path": "20_evaluate_qwen_batch6.sbatch",
+    "bytes": 845,
+    "included": true,
+    "reason": "Included (see source_files.json for transformations)"
+  },
+  {
+    "path": "21_lora_quick12.sbatch",
+    "bytes": 920,
+    "included": true,
+    "reason": "Included (see source_files.json for transformations)"
+  },
+  {
+    "path": "22_lora_heldout_eval.sbatch",
+    "bytes": 1331,
+    "included": true,
+    "reason": "Included (see source_files.json for transformations)"
+  },
+  {
+    "path": "23_base_heldout_eval.sbatch",
+    "bytes": 1246,
+    "included": true,
+    "reason": "Included (see source_files.json for transformations)"
+  },
+  {
+    "path": "archives/olmocr_reproducibility_article_20260928T2045.tgz",
+    "bytes": 99857337,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "archives/olmocr_reproducibility_article_20260928T2045.tgz.sha256",
+    "bytes": 124,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "artifacts/olmocr_lora_quick12_checkpoint-10/adapter_config.json",
+    "bytes": 1149,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "artifacts/olmocr_lora_quick12_checkpoint-10/adapter_model.safetensors",
+    "bytes": 20218120,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "artifacts/olmocr_lora_quick12_checkpoint-10/optimizer.pt",
+    "bytes": 40558603,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "artifacts/olmocr_lora_quick12_checkpoint-10/README.md",
+    "bytes": 5286,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "artifacts/olmocr_lora_quick12_checkpoint-10/scheduler.pt",
+    "bytes": 1465,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "artifacts/olmocr_lora_quick12_checkpoint-10/training_state.pt",
+    "bytes": 1367,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "artifacts/olmocr_lora_quick12_checkpoint-10.sha256",
+    "bytes": 174,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "artifacts/olmocr_lora_smoke_checkpoint-2/adapter_config.json",
+    "bytes": 1149,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "artifacts/olmocr_lora_smoke_checkpoint-2/adapter_model.safetensors",
+    "bytes": 20218120,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "artifacts/olmocr_lora_smoke_checkpoint-2/optimizer.pt",
+    "bytes": 40558603,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "artifacts/olmocr_lora_smoke_checkpoint-2/README.md",
+    "bytes": 5286,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "artifacts/olmocr_lora_smoke_checkpoint-2/scheduler.pt",
+    "bytes": 1465,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "artifacts/olmocr_lora_smoke_checkpoint-2/training_state.pt",
+    "bytes": 1367,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "artifacts/olmocr_lora_smoke_checkpoint-2.sha256",
+    "bytes": 171,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "configs/olmocr_lora_quick12.yaml",
+    "bytes": 1812,
+    "included": true,
+    "reason": "Included (see source_files.json for transformations)"
+  },
+  {
+    "path": "configs/olmocr_lora_smoke.yaml",
+    "bytes": 1790,
+    "included": true,
+    "reason": "Included (see source_files.json for transformations)"
+  },
+  {
+    "path": "data/quick_htr_data/eval/19.md",
+    "bytes": 479,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "data/quick_htr_data/eval/19.pdf",
+    "bytes": 312328,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "data/quick_htr_data/eval/29.md",
+    "bytes": 1767,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "data/quick_htr_data/eval/29.pdf",
+    "bytes": 563852,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "data/quick_htr_data/train/10.md",
+    "bytes": 3659,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "data/quick_htr_data/train/10.pdf",
+    "bytes": 754117,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "data/quick_htr_data/train/100.md",
+    "bytes": 1191,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "data/quick_htr_data/train/100.pdf",
+    "bytes": 532742,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "data/quick_htr_data/train/11.md",
+    "bytes": 1931,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "data/quick_htr_data/train/11.pdf",
+    "bytes": 547716,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "data/quick_htr_data/train/13.md",
+    "bytes": 741,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "data/quick_htr_data/train/13.pdf",
+    "bytes": 329511,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "data/quick_htr_data/train/14.md",
+    "bytes": 1209,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "data/quick_htr_data/train/14.pdf",
+    "bytes": 580069,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "data/quick_htr_data/train/15.md",
+    "bytes": 1523,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "data/quick_htr_data/train/15.pdf",
+    "bytes": 590901,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "data/quick_htr_data/train/16.md",
+    "bytes": 1322,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "data/quick_htr_data/train/16.pdf",
+    "bytes": 590057,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "data/quick_htr_data/train/17.md",
+    "bytes": 1320,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "data/quick_htr_data/train/17.pdf",
+    "bytes": 584453,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "data/quick_htr_data/train/18.md",
+    "bytes": 1272,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "data/quick_htr_data/train/18.pdf",
+    "bytes": 586084,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "data/quick_htr_data/train/20.md",
+    "bytes": 1890,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "data/quick_htr_data/train/20.pdf",
+    "bytes": 306986,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "data/smoke/eval/13.md",
+    "bytes": 741,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "data/smoke/eval/13.pdf",
+    "bytes": 329511,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "data/smoke/train/10.md",
+    "bytes": 3659,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "data/smoke/train/10.pdf",
+    "bytes": 754117,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "data/smoke/train/11.md",
+    "bytes": 1931,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "data/smoke/train/11.pdf",
+    "bytes": 547716,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "DOKUMENTACJA_TESTOW_LUMI_OLMOCR2_2026-09-28.md",
+    "bytes": 12249,
+    "included": true,
+    "reason": "Included (see source_files.json for transformations)"
+  },
+  {
+    "path": "DOWNLOAD_VERIFICATION.json",
+    "bytes": 299,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "input/1.jpg",
+    "bytes": 545014,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "input/1.manual.txt",
+    "bytes": 3431,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "input/batch6/12.jpg",
+    "bytes": 247677,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "input/batch6/12.manual.txt",
+    "bytes": 270,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "input/batch6/2.jpg",
+    "bytes": 569265,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "input/batch6/2.manual.txt",
+    "bytes": 3444,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "input/batch6/33.jpg",
+    "bytes": 250717,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "input/batch6/33.manual.txt",
+    "bytes": 1715,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "input/batch6/55.jpg",
+    "bytes": 513156,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "input/batch6/55.manual.txt",
+    "bytes": 3337,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "input/batch6/71.jpg",
+    "bytes": 515338,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "input/batch6/71.manual.txt",
+    "bytes": 3593,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "input/batch6/94.jpg",
+    "bytes": 499004,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "input/batch6/94.manual.txt",
+    "bytes": 3458,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "input/batch_manifest.tsv",
+    "bytes": 175,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "INSTRUKCJA_TRENINGU_OLMOCR_LUMI.md",
+    "bytes": 10157,
+    "included": true,
+    "reason": "Included (see source_files.json for transformations)"
+  },
+  {
+    "path": "logs/base-heldout-22414753.err",
+    "bytes": 601,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/base-heldout-22414753.out",
+    "bytes": 37,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/download-22405219.err",
+    "bytes": 1535,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/download-22405219.out",
+    "bytes": 726,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/framework-22405171.err",
+    "bytes": 454,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/framework-22405171.out",
+    "bytes": 387,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/lora-heldout-22414685.err",
+    "bytes": 601,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/lora-heldout-22414685.out",
+    "bytes": 37,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/lora-quick12-22414398.err",
+    "bytes": 14961,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/lora-quick12-22414398.out",
+    "bytes": 79,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/lora-smoke-22407056.err",
+    "bytes": 590,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/lora-smoke-22407056.out",
+    "bytes": 0,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/lora-smoke-22407104.err",
+    "bytes": 14273,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/lora-smoke-22407104.out",
+    "bytes": 79,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/lora-smoke-22413525.err",
+    "bytes": 805,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/lora-smoke-22413525.out",
+    "bytes": 0,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/lora-smoke-22413555.err",
+    "bytes": 12073,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/lora-smoke-22413555.out",
+    "bytes": 79,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/muse-preflight-22413584.err",
+    "bytes": 592,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/muse-preflight-22413584.out",
+    "bytes": 278,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/olmocr-bf16-download-22407055.err",
+    "bytes": 1454,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/olmocr-bf16-download-22407055.out",
+    "bytes": 71,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/olmocr2-22405464.err",
+    "bytes": 4698,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/olmocr2-22405464.out",
+    "bytes": 333,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/olmocr2-batch-22405783.err",
+    "bytes": 4391,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/olmocr2-batch-22405783.out",
+    "bytes": 1283,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/olmocr2-download-22405441.err",
+    "bytes": 1365,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/olmocr2-download-22405441.out",
+    "bytes": 169,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/olmocr2-eval-22405819.err",
+    "bytes": 0,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/olmocr2-eval-22405819.out",
+    "bytes": 217,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/qwen-batch-22413583.err",
+    "bytes": 3977,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/qwen-batch-22413583.out",
+    "bytes": 1282,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/qwen-download-22413582.err",
+    "bytes": 1614,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/qwen-download-22413582.out",
+    "bytes": 72,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/qwen-eval-22413671.err",
+    "bytes": 79,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/qwen-eval-22413671.out",
+    "bytes": 0,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/qwen-eval-22414368.err",
+    "bytes": 454,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/qwen-eval-22414368.out",
+    "bytes": 217,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/rolmocr-22405250.err",
+    "bytes": 3921,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/rolmocr-22405250.out",
+    "bytes": 287,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/train-base-deps-22406706.err",
+    "bytes": 2929,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/train-base-deps-22406706.out",
+    "bytes": 23519,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/train-compatible-deps-22406422.err",
+    "bytes": 1014,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/train-compatible-deps-22406422.out",
+    "bytes": 9169,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/train-deps-22406138.err",
+    "bytes": 1237,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/train-deps-22406138.out",
+    "bytes": 14642,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/train-import-22405945.err",
+    "bytes": 1184,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/train-import-22405945.out",
+    "bytes": 105,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/train-import-compatible-22406555.err",
+    "bytes": 1076,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/train-import-compatible-22406555.out",
+    "bytes": 0,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/train-import-compatible-22406707.err",
+    "bytes": 643,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/train-import-compatible-22406707.out",
+    "bytes": 23,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/train-import-layered-22406139.err",
+    "bytes": 579,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/train-import-layered-22406139.out",
+    "bytes": 0,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/train-min-deps-22406361.err",
+    "bytes": 1258,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "logs/train-min-deps-22406361.out",
+    "bytes": 712,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "OCENA_WYBORU_MODELU_TRENINGOWEGO.md",
+    "bytes": 6245,
+    "included": true,
+    "reason": "Included (see source_files.json for transformations)"
+  },
+  {
+    "path": "PROTOCOL.md",
+    "bytes": 1855,
+    "included": true,
+    "reason": "Included (see source_files.json for transformations)"
+  },
+  {
+    "path": "README.md",
+    "bytes": 2448,
+    "included": true,
+    "reason": "Included (see source_files.json for transformations)"
+  },
+  {
+    "path": "results/base_quick12_heldout/olmocr2_page_19.txt",
+    "bytes": 10411,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "results/base_quick12_heldout/olmocr2_page_29.txt",
+    "bytes": 1999,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "results/base_quick12_heldout/runtime.json",
+    "bytes": 156,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "results/base_quick12_heldout_evaluation/metrics_per_page.csv",
+    "bytes": 79,
+    "included": true,
+    "reason": "Included (see source_files.json for transformations)"
+  },
+  {
+    "path": "results/base_quick12_heldout_evaluation/metrics_summary.json",
+    "bytes": 43,
+    "included": true,
+    "reason": "Included (see source_files.json for transformations)"
+  },
+  {
+    "path": "results/batch6/olmocr2_page_12.txt",
+    "bytes": 375,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "results/batch6/olmocr2_page_2.txt",
+    "bytes": 3603,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "results/batch6/olmocr2_page_33.txt",
+    "bytes": 12273,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "results/batch6/olmocr2_page_55.txt",
+    "bytes": 1773,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "results/batch6/olmocr2_page_71.txt",
+    "bytes": 10531,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "results/batch6/olmocr2_page_94.txt",
+    "bytes": 2685,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "results/batch6_evaluation/metrics_per_page.csv",
+    "bytes": 294,
+    "included": true,
+    "reason": "Included (see source_files.json for transformations)"
+  },
+  {
+    "path": "results/batch6_evaluation/metrics_summary.json",
+    "bytes": 235,
+    "included": true,
+    "reason": "Included (see source_files.json for transformations)"
+  },
+  {
+    "path": "results/lora_quick12_heldout/olmocr2_page_19.txt",
+    "bytes": 917,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "results/lora_quick12_heldout/olmocr2_page_29.txt",
+    "bytes": 1827,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "results/lora_quick12_heldout/runtime.json",
+    "bytes": 154,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "results/lora_quick12_heldout_evaluation/metrics_per_page.csv",
+    "bytes": 78,
+    "included": true,
+    "reason": "Included (see source_files.json for transformations)"
+  },
+  {
+    "path": "results/lora_quick12_heldout_evaluation/metrics_summary.json",
+    "bytes": 43,
+    "included": true,
+    "reason": "Included (see source_files.json for transformations)"
+  },
+  {
+    "path": "results/olmocr2_batch6_runtime.json",
+    "bytes": 1628,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "results/olmocr2_page_1.txt",
+    "bytes": 3372,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "results/olmocr2_page_1_runtime.json",
+    "bytes": 333,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "results/qwen_batch6/olmocr2_page_12.txt",
+    "bytes": 592,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "results/qwen_batch6/olmocr2_page_2.txt",
+    "bytes": 1185,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "results/qwen_batch6/olmocr2_page_33.txt",
+    "bytes": 10727,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "results/qwen_batch6/olmocr2_page_55.txt",
+    "bytes": 10271,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "results/qwen_batch6/olmocr2_page_71.txt",
+    "bytes": 1631,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "results/qwen_batch6/olmocr2_page_94.txt",
+    "bytes": 7612,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "results/qwen_batch6_evaluation/metrics_per_page.csv",
+    "bytes": 291,
+    "included": true,
+    "reason": "Included (see source_files.json for transformations)"
+  },
+  {
+    "path": "results/qwen_batch6_evaluation/metrics_summary.json",
+    "bytes": 235,
+    "included": true,
+    "reason": "Included (see source_files.json for transformations)"
+  },
+  {
+    "path": "results/qwen_batch6_runtime.json",
+    "bytes": 1627,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "results/rolmocr_page_1.txt",
+    "bytes": 851,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "results/rolmocr_page_1_runtime.json",
+    "bytes": 287,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "RESULTS_2026-09-28.md",
+    "bytes": 6016,
+    "included": true,
+    "reason": "Included (see source_files.json for transformations)"
+  },
+  {
+    "path": "scripts/01_gpu_framework_preflight.sbatch",
+    "bytes": 1448,
+    "included": true,
+    "reason": "Included (see source_files.json for transformations)"
+  },
+  {
+    "path": "scripts/02_download_rolmocr.sbatch",
+    "bytes": 1009,
+    "included": true,
+    "reason": "Included (see source_files.json for transformations)"
+  },
+  {
+    "path": "scripts/02_rolmocr_inference.sbatch",
+    "bytes": 1003,
+    "included": true,
+    "reason": "Included (see source_files.json for transformations)"
+  },
+  {
+    "path": "scripts/03_download_olmocr2.sbatch",
+    "bytes": 979,
+    "included": true,
+    "reason": "Included (see source_files.json for transformations)"
+  },
+  {
+    "path": "scripts/04_olmocr2_inference.sbatch",
+    "bytes": 911,
+    "included": true,
+    "reason": "Included (see source_files.json for transformations)"
+  },
+  {
+    "path": "scripts/05_olmocr2_batch.sbatch",
+    "bytes": 993,
+    "included": true,
+    "reason": "Included (see source_files.json for transformations)"
+  },
+  {
+    "path": "scripts/06_evaluate_batch.sbatch",
+    "bytes": 723,
+    "included": true,
+    "reason": "Included (see source_files.json for transformations)"
+  },
+  {
+    "path": "scripts/07_train_import_preflight.sbatch",
+    "bytes": 1172,
+    "included": true,
+    "reason": "Included (see source_files.json for transformations)"
+  },
+  {
+    "path": "scripts/__pycache__/run_olmocr2.cpython-312.pyc",
+    "bytes": 4973,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  },
+  {
+    "path": "scripts/batch_manifest.tsv",
+    "bytes": 175,
+    "included": true,
+    "reason": "Included (see source_files.json for transformations)"
+  },
+  {
+    "path": "scripts/evaluate_batch.py",
+    "bytes": 3764,
+    "included": true,
+    "reason": "Included (see source_files.json for transformations)"
+  },
+  {
+    "path": "scripts/evaluate_lora_heldout.py",
+    "bytes": 1845,
+    "included": true,
+    "reason": "Included (see source_files.json for transformations)"
+  },
+  {
+    "path": "scripts/run_lora_eval.py",
+    "bytes": 3127,
+    "included": true,
+    "reason": "Included (see source_files.json for transformations)"
+  },
+  {
+    "path": "scripts/run_olmocr2.py",
+    "bytes": 2942,
+    "included": true,
+    "reason": "Included (see source_files.json for transformations)"
+  },
+  {
+    "path": "scripts/run_olmocr2_batch.py",
+    "bytes": 3305,
+    "included": true,
+    "reason": "Included (see source_files.json for transformations)"
+  },
+  {
+    "path": "scripts/run_rolmocr.py",
+    "bytes": 2225,
+    "included": true,
+    "reason": "Included (see source_files.json for transformations)"
+  },
+  {
+    "path": "SOURCE_DATA_SHA256.json",
+    "bytes": 7057,
+    "included": false,
+    "reason": "Retained in original local copy; raw content, binary artifact, logs, duplicate archive, cache or superseded preparation metadata"
+  }
+]

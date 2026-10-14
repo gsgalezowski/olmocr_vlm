@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite the published version of this research package. A DOI has not yet been assigned."
+title: "olmocr_vlm: pilot HTR evaluation data and scripts from LUMI"
+type: dataset
+authors:
+  - family-names: "Gałęzowski"
+    given-names: "Grzegorz"
+    affiliation: "Uniwersytet Kardynała Stefana Wyszyńskiego w Warszawie / Wydział Nauk Humanistycznych"
+abstract: "Numerical evaluation data, scripts and documentation from a technical olmOCR/LoRA HTR pilot on LUMI. Scans, transcriptions and model weights are not distributed in this repository."
+keywords:
+  - HTR
+  - OCR
+  - olmOCR
+  - LUMI
+  - LoRA
+  - historical documents

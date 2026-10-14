@@ -1,0 +1,14 @@
+{
+  "torch": "2.10.0+rocm7.0",
+  "hip": "7.0.51831",
+  "device": "AMD Instinct MI250X",
+  "visible_devices": 1,
+  "packages": {
+    "torch": "2.10.0+rocm7.0_lumi_aif_20260807140531",
+    "transformers": "5.10.1",
+    "huggingface-hub": "1.27.0",
+    "vllm": "0.22.1+lumi_aif_gfx90a_0decac0",
+    "flash-attn": "2.8.3+lumi_aif_gfx90a_b664ea0"
+  },
+  "matrix_checksum": 20.3975830078125
+}

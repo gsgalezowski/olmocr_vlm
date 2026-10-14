@@ -1,0 +1,28 @@
+#!/bin/bash -l
+# Short post-training HTR check on two pages excluded from the LoRA run.
+#SBATCH --job-name=olmocr-lora-heldout
+#SBATCH --account=project_465003327
+#SBATCH --partition=small-g
+#SBATCH --gpus=1
+#SBATCH --cpus-per-task=7
+#SBATCH --mem=64G
+#SBATCH --time=00:20:00
+#SBATCH --output=/project/project_465003327/olmocr_vlm/logs/lora-heldout-%j.out
+#SBATCH --error=/project/project_465003327/olmocr_vlm/logs/lora-heldout-%j.err
+set -euo pipefail
+root=/project/project_465003327/olmocr_vlm
+scratch=/scratch/project_465003327/olmocr_vlm
+packages=$scratch/train_python_compatible
+module purge
+module load Local-LAIF lumi-aif-singularity-bindings
+sif=/appl/local/laifs/containers/lumi-multitorch-latest.sif
+singularity run "$sif" env PYTHONPATH="$packages:$root/software/olmocr" \
+  python "$root/scripts/run_lora_eval.py" \
+  --model "$scratch/models/olmocr-2-7b-1025-bf16" \
+  --adapter "$scratch/outputs/lora_quick12/lora-quick12-2026-09-28/checkpoint-10" \
+  --input-dir "$scratch/data/quick_htr_data/eval" \
+  --output-dir "$root/results/lora_quick12_heldout" --page 19 --page 29
+singularity run "$sif" python "$root/scripts/evaluate_lora_heldout.py" \
+  --input-dir "$scratch/data/quick_htr_data/eval" \
+  --prediction-dir "$root/results/lora_quick12_heldout" \
+  --out-dir "$root/results/lora_quick12_heldout_evaluation"

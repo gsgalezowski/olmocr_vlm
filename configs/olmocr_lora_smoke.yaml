@@ -1,0 +1,61 @@
+project_name: lumi-olmocr-htr
+run_name: lora-smoke-2026-09-28
+
+model:
+  name: /scratch/project_465003327/olmocr_vlm/models/olmocr-2-7b-1025-bf16
+  trust_remote_code: true
+  torch_dtype: bfloat16
+  use_flash_attention: true
+  attn_implementation: flash_attention_2
+  use_lora: true
+  lora_rank: 8
+  lora_alpha: 32
+  lora_dropout: 0.05
+  lora_target_modules: [q_proj, k_proj, v_proj, o_proj]
+
+dataset:
+  train:
+    - name: manual_htr_smoke_train
+      root_dir: /scratch/project_465003327/olmocr_vlm/data/smoke/train
+      pipeline: &basic_pipeline
+        - name: FrontMatterParser
+          front_matter_class: PageResponse
+        - name: FilterOutRotatedDocuments
+        - name: ReformatLatexBoldItalic
+        - name: DatasetTextRuleFilter
+        - name: PDFRenderer
+          target_longest_image_dim: 1288
+        - name: NewYamlFinetuningPromptWithNoAnchoring
+        - name: FrontMatterOutputFormat
+        - name: InstructUserMessages
+          prompt_first: true
+        - name: Tokenizer
+          masking_index: -100
+          end_of_message_token: "<|im_end|>"
+  eval:
+    - name: manual_htr_smoke_eval
+      root_dir: /scratch/project_465003327/olmocr_vlm/data/smoke/eval
+      pipeline: *basic_pipeline
+
+training:
+  output_dir: /scratch/project_465003327/olmocr_vlm/outputs/lora_smoke
+  num_train_epochs: 1
+  per_device_train_batch_size: 1
+  per_device_eval_batch_size: 1
+  gradient_accumulation_steps: 1
+  gradient_checkpointing: true
+  collator_max_token_len: 4096
+  learning_rate: 2e-5
+  lr_scheduler_type: linear
+  warmup_ratio: 0.0
+  optim: adamw_torch
+  weight_decay: 0.01
+  max_grad_norm: 1.0
+  torch_compile: false
+  seed: 300
+  data_seed: 301
+  evaluation_strategy: epoch
+  save_strategy: epoch
+  save_total_limit: 1
+  load_best_model_at_end: false
+  report_to: []
