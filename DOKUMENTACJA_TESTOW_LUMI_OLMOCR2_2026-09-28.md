@@ -19,7 +19,8 @@ wzmacnianego OCR/HTR opartego na modelu wizyjno-jezykowym:
 3. przygotowanie par strona-transkrypcja w formacie oficjalnego treningu
    OlmOCR;
 4. dostrojenie LoRA modelu BF16;
-5. dekodowanie stron niewidzianych w treningu i obliczenie CER/WER;
+5. dekodowanie stron walidacyjnych niewykorzystanych do aktualizacji wag i
+   obliczenie CER/WER;
 6. zapis artefaktow, logow i checksum do audytu.
 
 Nie uzyto Kraken ani klasycznego silnika HTR.
@@ -57,7 +58,7 @@ plik Markdown z front matter YAML.
 | Jednostronicowy test RolmOCR i OlmOCR | 1 | 1 | Test zgodnosci modelu i GPU. |
 | Korpus przygotowany do pilota LoRA | 98 | strona-transkrypcja | 81 train, 10 dev, 7 kontrola techniczna; jedna pusta transkrypcja wylaczona. |
 | Wykonany szybki LoRA train | 10 | 10, 11, 13, 14, 15, 16, 17, 18, 20, 100 | Podzbior techniczny z przygotowanego korpusu. |
-| Wykonany szybki LoRA eval i test niewidziany | 2 | 19, 29 | Nie nalezaly do 10 stron treningowych. |
+| Wykonana szybka walidacja LoRA | 2 | 19, 29 | Nie nalezaly do 10 stron treningowych, ale sluzyly do walidacji podczas treningu; nie sa niezaleznym testem koncowym. |
 | Smoke LoRA | 2 train + 1 eval | osobny mini-podzbior | Test lancucha treningowego przed krotszym LoRA 10+2. |
 
 Nie trenowano modelu na pozostalych katalogach roboczych, w tym na danych z
@@ -86,7 +87,7 @@ singularity run /appl/local/laifs/containers/lumi-multitorch-latest.sif ...
 # Wlasciwy trening LoRA
 sbatch /project/project_465003327/olmocr_vlm/21_lora_quick12.sbatch
 
-# Ewaluacja stron niewidzianych, kolejno adapter i baza
+# Ewaluacja stron walidacyjnych, kolejno adapter i baza
 sbatch /project/project_465003327/olmocr_vlm/22_lora_heldout_eval.sbatch
 sbatch /project/project_465003327/olmocr_vlm/23_base_heldout_eval.sbatch
 ```
@@ -151,6 +152,12 @@ z OlmOCR probami i nie wplynely na wyniki opisane ponizej.
 
 ## Wyniki istotne dla artykulu
 
+Inferencje porownawcze wykonano wlasna, bezposrednia sciezka oparta na
+Transformers, a nie kompletnym rekomendowanym toolkitem olmOCR z mechanizmami
+renderowania, korekcji obrotu i ponawiania stron. Wyniki odnosza sie wylacznie
+do tej konfiguracji i nie powinny byc przedstawiane jako ocena calego produktu
+olmOCR.
+
 ### Zero-shot na szesciu stronach
 
 | Model | CER pooled | WER pooled | Interpretacja |
@@ -159,7 +166,7 @@ z OlmOCR probami i nie wplynely na wyniki opisane ponizej.
 | `allenai/olmOCR-2-7B-1025` | 1.698142 | 1.716266 | Dziala na LUMI, lecz bez adaptacji nadgeneruje na czesci rekopisu. |
 | `Qwen/Qwen2.5-VL-7B-Instruct` | 1.970521 | 2.601664 | Slabszy od OlmOCR na identycznej probie, duze nadgenerowanie. |
 
-### Efekt LoRA na dwoch stronach niewidzianych
+### Efekt LoRA na dwoch stronach walidacyjnych
 
 | Wariant | Strony | CER pooled | Obserwacja |
 | --- | --- | ---: | --- |
@@ -171,9 +178,10 @@ Loss walidacyjny w treningu 10+2 zmienil sie z `1.443940` przed treningiem na
 
 `e0da8ee777bea7334fab2377498e71251890393513cf1cff5438fc4a344660a7`
 
-Zbyt mala liczebnosc (10 stron treningowych, 2 testowe) nie pozwala traktowac
-spadku CER jako wyniku publikacyjnego. Pozwala jednak stwierdzic, ze proces
-treningu i adapter sa technicznie poprawne, a dostrojenie ma uzasadnienie.
+Zbyt mala liczebnosc (10 stron treningowych, 2 walidacyjne) oraz wykorzystanie
+tych samych dwoch stron podczas walidacji treningu nie pozwalaja traktowac
+spadku CER jako wyniku niezaleznego testu publikacyjnego. Obserwacja potwierdza
+techniczna wykonalnosc procesu i uzasadnia dalsze dostrajanie.
 
 ## Dlaczego OlmOCR 2 wybrano do dalszych badan i treningu
 
@@ -191,18 +199,21 @@ treningu i adapter sa technicznie poprawne, a dostrojenie ma uzasadnienie.
 5. Adapter LoRA jest bardzo maly wobec modelu bazowego i mozna go trenowac na
    pojedynczym GCD MI250X, co umozliwia kosztowo kontrolowane eksperymenty na
    tysiacach stron bez kopiowania pelnych wag modelu.
-6. Krotki test na stronach niewidzianych wskazal, ze adaptacja zmniejsza
-   problem nadgenerowania. Wymaga to jednak potwierdzenia na duzym, stalym
-   zbiorze testowym rozdzielonym wedlug rekopisu lub reki pisarskiej.
+6. Krotka walidacja na stronach bez aktualizacji wag wskazala, ze adaptacja
+   zmniejsza problem nadgenerowania w tej konfiguracji. Wymaga to potwierdzenia
+   na duzym, stalym i niezaleznym zbiorze testowym rozdzielonym wedlug
+   rekopisu lub reki pisarskiej.
 
 Proponowane zdanie do komunikacji z tworcami OlmOCR 2:
 
 > We selected olmOCR 2 as the base model because its official training stack
 > ran end-to-end on LUMI-G AMD MI250X with BF16 LoRA, and it outperformed a
 > Qwen2.5-VL-7B control on the same six manually transcribed historical pages.
-> In a small held-out pilot, LoRA also substantially reduced severe
-> over-generation. These are preliminary results and will be validated on a
-> larger manuscript-disjoint corpus using CER/WER.
+> In a small validation pilot, LoRA also substantially reduced severe
+> over-generation on pages excluded from gradient training. These pages were
+> used for validation and do not constitute an independent final test set.
+> The result will be tested on a larger manuscript-disjoint corpus using
+> CER/WER.
 
 ## Artefakty do zachowania
 
@@ -228,7 +239,8 @@ SHA-256 archiwum:
 ## Ograniczenia i uczciwe sformulowanie do publikacji
 
 - Test wykorzystuje niewielka i techniczna probke, nie pelny korpus.
-- Dwie strony held-out nie sa wystarczajace do wnioskowania statystycznego.
+- Dwie strony walidacyjne nie sa niezaleznym testem i nie sa wystarczajace do
+  wnioskowania statystycznego.
 - Metryki strony obejmuja caly output modelu, wraz z Markdown/front matter;
   przed publikacja nalezy ustalic jednolity protokol normalizacji oraz
   usuwania metadanych generatywnych.

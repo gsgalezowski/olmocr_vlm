@@ -1,5 +1,5 @@
 #!/bin/bash -l
-# Baseline for the same two held-out pages used in the post-LoRA check.
+# Baseline for the same two validation pages used in the post-LoRA check.
 #SBATCH --job-name=olmocr-base-heldout
 #SBATCH --account=project_465003327
 #SBATCH --partition=small-g

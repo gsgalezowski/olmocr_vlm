@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Decode held-out PDF pages with the tested OlmOCR LoRA adapter."""
+"""Decode validation PDF pages with the tested olmOCR LoRA adapter."""
 
 from __future__ import annotations
 

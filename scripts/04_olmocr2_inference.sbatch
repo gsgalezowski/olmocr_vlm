@@ -1,5 +1,5 @@
 #!/bin/bash -l
-# Official olmOCR-2 FP8 inference on one manually transcribed page.
+# Custom direct-Transformers inference with the official olmOCR-2 FP8 model.
 #SBATCH --job-name=olmocr2-one-page
 #SBATCH --account=project_465003327
 #SBATCH --partition=small-g

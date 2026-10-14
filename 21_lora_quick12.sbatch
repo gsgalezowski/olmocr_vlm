@@ -1,5 +1,5 @@
 #!/bin/bash -l
-# Ten manually transcribed pages plus two held out pages: complete short HTR run.
+# Ten manually transcribed training pages plus two validation pages: short HTR run.
 #SBATCH --job-name=olmocr-lora-quick12
 #SBATCH --account=project_465003327
 #SBATCH --partition=small-g

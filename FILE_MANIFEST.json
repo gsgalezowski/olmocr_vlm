@@ -1,8 +1,8 @@
 [
   {
     "path": "16_lora_smoke.sbatch",
-    "bytes": 916,
-    "sha256": "26379a6bd380de8e7dfedc4032f3c606aec7c8bb429495ef3d1870dad48a1d13"
+    "bytes": 918,
+    "sha256": "9637a675a52eca14104ba42254df406b90a582cc181a6451afe27d84668a4ea0"
   },
   {
     "path": "17_qwen_download.sbatch",
@@ -21,8 +21,8 @@
   },
   {
     "path": "21_lora_quick12.sbatch",
-    "bytes": 920,
-    "sha256": "73c40812a629d825d1eeb212ad64462b75f1148cb9b32e7df6f5329dd40980d5"
+    "bytes": 922,
+    "sha256": "da12ea2f0dfdcdf88c4dc86db30ec6d08a7eaae7632c981a1e11a8e3d67b755d"
   },
   {
     "path": "22_lora_heldout_eval.sbatch",
@@ -31,8 +31,8 @@
   },
   {
     "path": "23_base_heldout_eval.sbatch",
-    "bytes": 1246,
-    "sha256": "29b0bca92d4b1ad62710005a9a3ce5ddb3683e7d415829a99606b89e9877da73"
+    "bytes": 1248,
+    "sha256": "bbc99eb1cc76e5b5ebe163d88cf51337a9301e4563a37c242800cd4968c932cc"
   },
   {
     "path": "ACKNOWLEDGEMENTS.md",
@@ -71,8 +71,8 @@
   },
   {
     "path": "docs/LIMITATIONS.md",
-    "bytes": 1283,
-    "sha256": "dc148739bcf939599036b77374b2d320d021175a7feda148f880a19bb7ccc760"
+    "bytes": 1532,
+    "sha256": "6419f0101c52d828f197600a6465cd73ab4520c77c3ae5640798407ae96f8ffd"
   },
   {
     "path": "docs/PLGRID_REPORTING.md",
@@ -81,13 +81,13 @@
   },
   {
     "path": "docs/REPRODUCIBILITY.md",
-    "bytes": 2264,
-    "sha256": "ea38247147e9c0bf9a1f34645366323540cb909867c9f72f49e4ce193b090345"
+    "bytes": 2553,
+    "sha256": "322cf5fe356af7a05cf0293b4e948001e37ecc69fdde3e91def719289b593670"
   },
   {
     "path": "DOKUMENTACJA_TESTOW_LUMI_OLMOCR2_2026-09-28.md",
-    "bytes": 12216,
-    "sha256": "f17b82eec7f726fbd2a1222a86bc08b57bb271068f66558971d7db1af1b5d356"
+    "bytes": 12881,
+    "sha256": "b263949dcabe3147b01b2d7dabb8c0edaa97de6b854417e3d64b21371d3c3c6b"
   },
   {
     "path": "INSTRUKCJA_TRENINGU_OLMOCR_LUMI.md",
@@ -136,8 +136,8 @@
   },
   {
     "path": "README.md",
-    "bytes": 5002,
-    "sha256": "8b1f38288193b65a5b01da124c60cf48800fd8e56fbe40cf7206446a538f8b77"
+    "bytes": 6162,
+    "sha256": "75c900708b90e6e9bc790b7f3eacd63d490fdad25eda13a3c72014ddd3419ed1"
   },
   {
     "path": "results/base_quick12_heldout_evaluation/metrics_per_page.csv",
@@ -181,8 +181,8 @@
   },
   {
     "path": "RESULTS_2026-09-28.md",
-    "bytes": 6019,
-    "sha256": "e17c2cace1d743074aa7543e143119cccce0e3175021bc06c659e7ba1e0fc48a"
+    "bytes": 6653,
+    "sha256": "e48c5ddcbe2b3c232666cb6b2bcd1d36afeaec2237c91e5f3c6ca5e1665634d0"
   },
   {
     "path": "RIGHTS.md",
@@ -211,8 +211,8 @@
   },
   {
     "path": "scripts/04_olmocr2_inference.sbatch",
-    "bytes": 911,
-    "sha256": "ef4c1ff46134ecb359b3f7f984e53239b972245cd277d50a8b712100628b982d"
+    "bytes": 920,
+    "sha256": "dfbbafc5f268a07f75728adb97ae304ad74c69fe04251d773e0309a65f7e41d9"
   },
   {
     "path": "scripts/05_olmocr2_batch.sbatch",
@@ -246,18 +246,18 @@
   },
   {
     "path": "scripts/run_lora_eval.py",
-    "bytes": 3127,
-    "sha256": "10f38f1611122d202aefcbd39f2afcc5a876db2d33916b841f7875a45d546f9a"
+    "bytes": 3129,
+    "sha256": "8cc4b9ef493e272de8307e2499a955399a2c82f63e610ac6da4a0ec9a0c17c37"
   },
   {
     "path": "scripts/run_olmocr2.py",
-    "bytes": 2942,
-    "sha256": "1877fcdafd1aade754275bc2ccb3e401a88571b18e80f8d3d39660ba42546429"
+    "bytes": 2940,
+    "sha256": "6e9aa3ebb777de096b8bb0a689993c6f1c21bf35dae5ebd27f9d046dc40715ed"
   },
   {
     "path": "scripts/run_olmocr2_batch.py",
-    "bytes": 3305,
-    "sha256": "8ee520274560cddc8a16f52b0f0b67c75712fbe2a200da34ad7f2d70b5e1fda1"
+    "bytes": 3309,
+    "sha256": "d22cf26f880465d0da43ad90bdb941d6268240a41ff7eaa21abe895d017cb6a7"
   },
   {
     "path": "scripts/run_rolmocr.py",

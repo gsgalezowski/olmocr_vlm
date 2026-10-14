@@ -4,6 +4,8 @@
 
 This repository documents a technical pilot performed on 28 September 2026. It includes page-level CER/WER measurements, aggregate results, inference/evaluation code and original Slurm/LoRA configurations. It is not a full HTR benchmark or a complete training corpus.
 
+The archived inference measurements were produced with a custom direct-Transformers path. They do not evaluate the complete recommended olmOCR toolkit pipeline, including its rendering, rotation and retry logic. Results therefore describe this experimental configuration and dataset only.
+
 **Author:** Grzegorz Gałęzowski  
 **Affiliation:** Uniwersytet Kardynała Stefana Wyszyńskiego w Warszawie / Wydział Nauk Humanistycznych  
 **Grant:** PLL/2026/019908 · `pllhistpreproc` · LUMI test grant  
@@ -31,6 +33,16 @@ The two validation pages were not training examples, but they were used for vali
 | olmOCR-2 BF16 + LoRA, same validation pages | 2 | 0.964827 | Not computed |
 
 CER/WER are ratios, not percentages; insertion errors can make them exceed 1. These are the archived measurements under the original normalization protocol. They do not establish general superiority, production readiness or statistically reliable improvement. See [the data card](DATASET_CARD.md) and [limitations](docs/LIMITATIONS.md).
+
+Within this limited setup, olmOCR 2 produced a lower pooled CER than the Qwen2.5-VL control on the same six pages. The upstream olmOCR training stack also ran end-to-end on LUMI-G, and the short LoRA pilot reduced over-generation on the two validation pages. These are feasibility observations rather than benchmark claims.
+
+## Upstream project and citation
+
+olmOCR is developed and maintained by the AllenNLP team at the Allen Institute for AI (AI2). This repository is an independent downstream pilot and is not affiliated with or endorsed by AI2.
+
+- Project: [allenai/olmocr](https://github.com/allenai/olmocr)
+- Model: [allenai/olmOCR-2-7B-1025](https://huggingface.co/allenai/olmOCR-2-7B-1025)
+- Paper: Jake Poznanski, Luca Soldaini and Kyle Lo, *olmOCR 2: Unit Test Rewards for Document OCR*, arXiv:2510.19817 (2025), https://arxiv.org/abs/2510.19817
 
 ## Files
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Minimal local inference for the official olmOCR-2 prompt protocol."""
+"""Minimal direct-Transformers inference using the olmOCR-2 prompt."""
 
 from __future__ import annotations
 

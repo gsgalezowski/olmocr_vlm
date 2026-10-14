@@ -6,6 +6,8 @@ Run `python tools/verify_package.py` with Python 3.10 or later. It verifies the 
 
 The observed GPU preflight environment is in `provenance/environment_observed.json`. LoRA was exercised on one AMD MI250X GCD with BF16; training/inference used PyTorch, transformers, PEFT, PDF rendering and the upstream olmOCR training stack. No generic requirements.txt is provided because a complete verified portable environment was not recovered.
 
+The archived inference runners call the model directly through Transformers. They are not the complete recommended olmOCR toolkit pipeline and do not reproduce its rendering, rotation or retry behavior. This distinction must be retained when citing or interpreting the recorded scores.
+
 ## Recompute metrics with the separate original data
 
 Once the original `input/`, `data/` and prediction directories have been restored beside the scripts, run from the repository root:

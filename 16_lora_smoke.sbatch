@@ -1,5 +1,5 @@
 #!/bin/bash -l
-# Two training examples plus one held-out page: validates the full LoRA path.
+# Two training examples plus one validation page: validates the full LoRA path.
 #SBATCH --job-name=olmocr-lora-smoke
 #SBATCH --account=project_465003327
 #SBATCH --partition=small-g

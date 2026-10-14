@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Run the official olmOCR-2 protocol on a fixed, auditable page batch."""
+"""Run custom direct-Transformers olmOCR-2 inference on an auditable batch."""
 
 from __future__ import annotations
 

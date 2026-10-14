@@ -1,6 +1,7 @@
 # Limitations
 
 - This is a technical pilot, not a representative benchmark.
+- Inference used a custom direct-Transformers path rather than the complete recommended olmOCR toolkit pipeline with its rendering, rotation and retry logic. The archived scores therefore characterize this experimental setup, not the full product.
 - The six-page comparison and the two-page base/LoRA comparison are different experiments. Their scores must not be pooled into one model ranking.
 - Pages 19 and 29 were excluded from gradient training but were used for validation. They are not a final untouched test set.
 - Document/hand-disjoint sampling was not established.
