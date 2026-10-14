@@ -17,10 +17,10 @@
 
 - Tytuł proponowanego rekordu: **olmocr_vlm: pilot HTR evaluation data and scripts from LUMI**.
 - Zakres: dane liczbowe z ewaluacji pilotażu, kod i dokumentacja; nie pełny korpus skanów ani 98 stron treningowych.
-- DOI: uzupełnić dopiero rzeczywistym DOI opublikowanego rekordu.
-- URL: podać stronę tego rekordu; adres GitHuba sam w sobie nie jest DOI.
+- DOI wersji 1.0.0: **10.5281/zenodo.23362662** (zarezerwowany; rejestrowany podczas publikacji rekordu).
+- URL rekordu: **https://doi.org/10.5281/zenodo.23362662** (zacznie prowadzić do rekordu po jego publikacji).
 
-Publiczny GitHub nie nadaje automatycznie DOI. W Zenodo można opublikować osobny rekord danych; przy publikacji rejestrowany jest DOI. Dane i dokumentacja w tym pakiecie są udostępniane na CC BY 4.0, kod i konfiguracje na MIT. W opisie rekordu należy zachować ten podział. Nie należy wpisywać DOI artykułu lub modelu bazowego jako DOI tego zestawu.
+Publiczny GitHub nie nadaje automatycznie DOI. Dla tego pakietu Zenodo zarezerwowało DOI wskazany powyżej; przy publikacji rekordu DOI zostanie zarejestrowany. Dane i dokumentacja w tym pakiecie są udostępniane na CC BY 4.0, kod i konfiguracje na MIT. W opisie rekordu należy zachować ten podział. Nie należy wpisywać DOI artykułu lub modelu bazowego jako DOI tego zestawu.
 
 ## Faktyczny opis prac do wykorzystania przy raporcie
 

@@ -13,6 +13,8 @@ The archived inference measurements were produced with a custom direct-Transform
 **Grant applicant:** Artur Górak  
 **LUMI allocation:** `project_465003327`
 
+**Zenodo DOI (version 1.0.0):** [10.5281/zenodo.23362662](https://doi.org/10.5281/zenodo.23362662) *(reserved; registered when the record is published)*
+
 ## Research scope
 
 - Technical validation of OCR/VLM execution on an AMD Instinct MI250X GCD.
@@ -55,7 +57,7 @@ olmOCR is developed and maintained by the AllenNLP team at the Allen Institute f
 | `docs/REPRODUCIBILITY.md` | Environment and reproduction boundaries |
 | `docs/PLGRID_REPORTING.md` | Grant identifiers, reporting guidance and draft factual summary |
 | `provenance/` | Source checksums, provenance and file inclusion decisions |
-| `CITATION.cff` | Author and citation metadata; no DOI has yet been assigned |
+| `CITATION.cff` | Author, version and citation metadata, including the reserved Zenodo DOI |
 
 Historical Polish documents at the repository root describe the larger local experiment archive. Their references to input scans, model outputs, logs or adapters **do not mean those files are distributed here**. Some are dated working recommendations, not validated final scientific conclusions.
 
@@ -81,4 +83,4 @@ See [acknowledgements](ACKNOWLEDGEMENTS.md) for identifiers and official guidanc
 
 ## Publication status and reuse
 
-This is a repository prepared for deposit, not evidence that a DOI or a peer-reviewed publication exists. A DOI must be added only after the corresponding repository record is published. Code and training configurations use [MIT](LICENSE); evaluation data and research documentation use [CC BY 4.0](LICENSE-DATA.md). See [RIGHTS.md](RIGHTS.md) for the file-level scope. The repository does not replace the grant report or establish its acceptance by PLGrid.
+Zenodo has reserved DOI [10.5281/zenodo.23362662](https://doi.org/10.5281/zenodo.23362662) for version 1.0.0; it is registered when the record is published. This deposit is a research package, not a peer-reviewed publication. Code and training configurations use [MIT](LICENSE); evaluation data and research documentation use [CC BY 4.0](LICENSE-DATA.md). See [RIGHTS.md](RIGHTS.md) for the file-level scope. The repository does not replace the grant report or establish its acceptance by PLGrid.

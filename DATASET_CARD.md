@@ -2,7 +2,7 @@
 
 ## Title and creators
 
-**olmocr_vlm: pilot HTR evaluation data and scripts from LUMI**
+**olmocr_vlm: Pilot HTR Evaluation Data and Scripts from LUMI**
 
 Author: Grzegorz Gałęzowski, Uniwersytet Kardynała Stefana Wyszyńskiego w Warszawie / Wydział Nauk Humanistycznych.
 Experiment date: 2026-09-28. Package preparation: 2026-10-14.
@@ -43,4 +43,4 @@ Technical inspection of pilot outputs, evaluation-method review and reporting th
 
 ## Access and license
 
-No DOI exists at preparation time. Evaluation data and research documentation are licensed under CC BY 4.0; code and training configurations are licensed under MIT. See RIGHTS.md and docs/DATA_AVAILABILITY.md. Metadata for a future deposit must describe this numerical evaluation dataset, not claim distribution of the 98-page corpus.
+Zenodo DOI `10.5281/zenodo.23362662` is reserved for version 1.0.0 and is registered when the record is published. Evaluation data and research documentation are licensed under CC BY 4.0; code and training configurations are licensed under MIT. See RIGHTS.md and docs/DATA_AVAILABILITY.md. The deposit metadata describes this numerical evaluation dataset and does not claim distribution of the 98-page corpus.

@@ -1,7 +1,10 @@
 cff-version: 1.2.0
-message: "Please cite the published version of this research package. A DOI has not yet been assigned."
-title: "olmocr_vlm: pilot HTR evaluation data and scripts from LUMI"
+message: "Please cite this research package using the DOI below."
+title: "olmocr_vlm: Pilot HTR Evaluation Data and Scripts from LUMI"
 type: dataset
+version: 1.0.0
+date-released: 2026-10-14
+doi: "10.5281/zenodo.23362662"
 authors:
   - family-names: "Gałęzowski"
     given-names: "Grzegorz"
@@ -16,7 +19,7 @@ keywords:
   - historical documents
 
 repository-code: "https://github.com/gsgalezowski/olmocr_vlm"
-url: "https://github.com/gsgalezowski/olmocr_vlm"
+url: "https://doi.org/10.5281/zenodo.23362662"
 # Distinct file scopes are defined in RIGHTS.md; these are not alternatives for every file.
 license:
   - MIT

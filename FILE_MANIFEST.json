@@ -41,48 +41,13 @@
   },
   {
     "path": "CITATION.cff",
-    "bytes": 916,
-    "sha256": "589332bac24cbb78eb0c472542ad39c45f80f37511d68d221826409c16be0c7b"
-  },
-  {
-    "path": "configs/olmocr_lora_quick12.yaml",
-    "bytes": 1812,
-    "sha256": "326e6c14bb65bac0339d9746bcfdbcff81018d5eb99a575222b0f89cea380142"
-  },
-  {
-    "path": "configs/olmocr_lora_smoke.yaml",
-    "bytes": 1790,
-    "sha256": "9a96e40690022fa82020b2baa7b1a853a809487bea5e57c41b46d2851ea4bff5"
+    "bytes": 950,
+    "sha256": "100e73a19daeb0951b1e2ae8048d58e703104f2ec478add085b40b0c5c42aa76"
   },
   {
     "path": "DATASET_CARD.md",
-    "bytes": 3257,
-    "sha256": "3057cba7880efa6087d9d8105fb563e603b24f91bd9872aae1a68e40c4434758"
-  },
-  {
-    "path": "docs/DATA_AVAILABILITY.md",
-    "bytes": 968,
-    "sha256": "b108956f9497fae5214f7c20d7b0375dfd6c48582f798065c2f483ef1b79a718"
-  },
-  {
-    "path": "docs/GITHUB_UPLOAD_PL.md",
-    "bytes": 1535,
-    "sha256": "0e5769cee817c818e675f29d0261fb7398d565ab8edd0cf727c92698db72d4d5"
-  },
-  {
-    "path": "docs/LIMITATIONS.md",
-    "bytes": 1532,
-    "sha256": "6419f0101c52d828f197600a6465cd73ab4520c77c3ae5640798407ae96f8ffd"
-  },
-  {
-    "path": "docs/PLGRID_REPORTING.md",
-    "bytes": 3250,
-    "sha256": "f305a1c88d8d35dfd881916ebc492b7b8b2c5c48d039d71e145485f63b443047"
-  },
-  {
-    "path": "docs/REPRODUCIBILITY.md",
-    "bytes": 2553,
-    "sha256": "322cf5fe356af7a05cf0293b4e948001e37ecc69fdde3e91def719289b593670"
+    "bytes": 3332,
+    "sha256": "a4499a287fdb56f5979e844057473853c763b5090ef006027f72c7ead64a2c2e"
   },
   {
     "path": "DOKUMENTACJA_TESTOW_LUMI_OLMOCR2_2026-09-28.md",
@@ -101,8 +66,8 @@
   },
   {
     "path": "LICENSE-DATA.md",
-    "bytes": 1468,
-    "sha256": "e0ce230e8dfd524e1a9f24c5a268fd5d5ae71083d2bf7cecc10f5440de6c4060"
+    "bytes": 1426,
+    "sha256": "bccd257345f6ac5aff5ed82b67d5de628a6ec2b9459d8577747e9132ec347011"
   },
   {
     "path": "OCENA_WYBORU_MODELU_TRENINGOWEGO.md",
@@ -115,6 +80,61 @@
     "sha256": "65241ca3459af4c26613860a33eae002760adb1d2ffe00d0e1865450f6fad4db"
   },
   {
+    "path": "README.md",
+    "bytes": 6371,
+    "sha256": "51d7748aec288bd56a164f9a8b45b0a364f73226aa3862793b702364d09e367a"
+  },
+  {
+    "path": "RESULTS_2026-09-28.md",
+    "bytes": 6653,
+    "sha256": "e48c5ddcbe2b3c232666cb6b2bcd1d36afeaec2237c91e5f3c6ca5e1665634d0"
+  },
+  {
+    "path": "RIGHTS.md",
+    "bytes": 1547,
+    "sha256": "e387453ae943777ae8f85707fdda6799eb2022b500c75d667bf5508618e61175"
+  },
+  {
+    "path": "configs/olmocr_lora_quick12.yaml",
+    "bytes": 1812,
+    "sha256": "326e6c14bb65bac0339d9746bcfdbcff81018d5eb99a575222b0f89cea380142"
+  },
+  {
+    "path": "configs/olmocr_lora_smoke.yaml",
+    "bytes": 1790,
+    "sha256": "9a96e40690022fa82020b2baa7b1a853a809487bea5e57c41b46d2851ea4bff5"
+  },
+  {
+    "path": "docs/DATA_AVAILABILITY.md",
+    "bytes": 968,
+    "sha256": "b108956f9497fae5214f7c20d7b0375dfd6c48582f798065c2f483ef1b79a718"
+  },
+  {
+    "path": "docs/GITHUB_UPLOAD_PL.md",
+    "bytes": 1535,
+    "sha256": "0e5769cee817c818e675f29d0261fb7398d565ab8edd0cf727c92698db72d4d5"
+  },
+  {
+    "path": "docs/LIMITATIONS.md",
+    "bytes": 1532,
+    "sha256": "6419f0101c52d828f197600a6465cd73ab4520c77c3ae5640798407ae96f8ffd"
+  },
+  {
+    "path": "docs/PLGRID_REPORTING.md",
+    "bytes": 3348,
+    "sha256": "2cfb2d6c9cf90ec71dd8810ce27ce73de0e19922e95e13e531eee239e0c69408"
+  },
+  {
+    "path": "docs/REPRODUCIBILITY.md",
+    "bytes": 2553,
+    "sha256": "322cf5fe356af7a05cf0293b4e948001e37ecc69fdde3e91def719289b593670"
+  },
+  {
+    "path": "provenance/README.md",
+    "bytes": 1204,
+    "sha256": "b723ecaa5e9be92757e667873a9e43af67c310199c2530e156b776cd5d3322f3"
+  },
+  {
     "path": "provenance/environment_observed.json",
     "bytes": 401,
     "sha256": "799a71b7d6385ef6e65bc94de0fc89d4aa28858027b7aa0572af31338c40d906"
@@ -125,19 +145,9 @@
     "sha256": "017fb4b66364bb804f792225758e42f8c8bbd413749f13f21b8bf26ba71af7b8"
   },
   {
-    "path": "provenance/README.md",
-    "bytes": 1085,
-    "sha256": "42e59bff73f7d9157b14d5f874e9893a11eff5071813ab2a012f428d85a71b20"
-  },
-  {
     "path": "provenance/source_files.json",
     "bytes": 9933,
     "sha256": "726b6ca7aac75da5f0eb295e5dd28c11155ad286b4cc125827fd9405e5bd1b69"
-  },
-  {
-    "path": "README.md",
-    "bytes": 6162,
-    "sha256": "75c900708b90e6e9bc790b7f3eacd63d490fdad25eda13a3c72014ddd3419ed1"
   },
   {
     "path": "results/base_quick12_heldout_evaluation/metrics_per_page.csv",
@@ -178,16 +188,6 @@
     "path": "results/qwen_batch6_evaluation/metrics_summary.json",
     "bytes": 235,
     "sha256": "920103bbf1c1cad035e202b7737db1e609dad655e795e52af04205d08a848c67"
-  },
-  {
-    "path": "RESULTS_2026-09-28.md",
-    "bytes": 6653,
-    "sha256": "e48c5ddcbe2b3c232666cb6b2bcd1d36afeaec2237c91e5f3c6ca5e1665634d0"
-  },
-  {
-    "path": "RIGHTS.md",
-    "bytes": 1483,
-    "sha256": "abf5b8ad7c6521b65c1bd4e64986442bb0d2ba5d073bda95c96ab6414cb2b303"
   },
   {
     "path": "scripts/01_gpu_framework_preflight.sbatch",

@@ -14,4 +14,4 @@ Both licenses permit commercial use, subject to their respective conditions. MIT
 The scopes above apply to the author's rights only. External models, libraries, third-party excerpts and license texts retain their own terms. No redistribution rights are granted for scans, manual transcriptions, generated page texts or binary model/adapter artifacts retained outside this repository.
 
 Repository: https://github.com/gsgalezowski/olmocr_vlm
-No DOI or ORCID has been invented. Update citation identifiers after a corresponding record is published.
+Zenodo DOI reserved for version 1.0.0: https://doi.org/10.5281/zenodo.23362662. Zenodo registers it when the record is published. No ORCID has been supplied or invented.
